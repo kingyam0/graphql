@@ -1,0 +1,169 @@
+body {
+    font-family: 'Goudy Bookletter 1911', sans-serif;
+    background: rgb(210, 178, 178);
+    font-variant: small-caps;
+}
+
+#header>span {
+    top: 10vh;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+
+h1 span {
+    color: #f52121;
+    font-variant: small-caps;
+    text-shadow: 0px 0px 5px #ffffff, 0px 0px 10px #ffffff, 0px 0px 10px #ffffff, 0px 0px 80px rgba(255, 255, 255, 0.9);
+    /* text-shadow: 0px 0px 5px rgb(255, 255, 255); */
+    /*     animation: buzzing .4s infinite; */
+}
+
+h1 {
+    color: #f52121;
+    font-size: 3rem;
+    display: inline-block;
+    padding: 1.2rem 2.1rem 1.4rem;
+    text-shadow: 0px 0px 5px #000000, 0px 0px 10px #000000, 0px 0px 10px #ffffff, 0px 0px 80px rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    position: relative;
+    font-variant: small-caps;
+}
+
+#title {
+    top: 0.1vh;
+    height: 5%;
+    width: 100%;
+    /* position: absolute; */
+    font-size: 20px;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    background-color: #ebaaaa;
+    border-radius: 25px;
+    border: 3px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.user-info {
+    height: 100%;
+    width: 30%;
+    font-size: medium;
+    font-weight: 800;
+    float: left;
+    padding: 1rem;
+}
+
+.user-info h2,
+h3 {
+    color: #d87474;
+    font-size: 1.8rem;
+    display: inline-block;
+    text-shadow: 0px 0px 5px #ffffff, 0px 0px 10px #ffffff, 0px 0px 10px #ffffff, 0px 0px 80px rgba(0, 0, 0, 0.9);
+    font-variant: small-caps;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#completed-projects {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-left: 3px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    float: right;
+    font-variant: small-caps;
+    background-color: rgb(255, 244, 244);
+    border: solid rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+p {
+    align-items: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-variant: small-caps;
+}
+
+#profile.user-info {
+    background-color: rgb(255, 244, 244);
+    border: solid rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+/********************************
+
+        LINE CHART
+
+********************************/
+
+circle {
+    fill: rgb(0, 0, 0);
+}
+
+circle:hover {
+    fill: rgb(255, 23, 23);
+}
+
+.profileTotalXpLabel {
+    color: #d87474;
+    font-size: 1.4rem;
+    display: inline-block;
+    text-shadow: 0px 0px 5px #ffffff, 0px 0px 10px #ffffff, 0px 0px 10px #ffffff, 0px 0px 80px rgba(207, 207, 207, 0.9);
+    font-variant: small-caps;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.profileTotalXpOutput {
+    font-size: 1.4rem;
+    font-variant: small-caps;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#graphs {
+    float: left;
+    width: 500px;
+    height: 350px;
+    margin-top: -475px;
+    margin-left: -40px;
+}
+
+#graphs div {
+    max-height: 65vh;
+    display: flex;
+    background-color: rgb(255, 244, 244);
+    border-radius: 25px;
+    border: solid black;
+    /* margin-bottom: 9rem; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:600px) {
+    #graphs {
+        display: block;
+        margin-left: unset;
+    }
+}
+
+/********************************
+
+        PIE CHART
+
+********************************/
+
+#projects-by-xp,
+h2 {
+    color: #d87474;
+    font-size: 1.2rem;
+    display: inline-block;
+    text-shadow: 0px 0px 5px #ffffff, 0px 0px 10px #ffffff, 0px 0px 10px #ffffff, 0px 0px 80px rgba(0, 0, 0, 0.9);
+    font-variant: small-caps;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-left: 20px;
+}
