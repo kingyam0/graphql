@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <title>GraphQL 🌎 </title>
+
+    <link rel="stylesheet" type="text/css" href="../styles.css" media="screen" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="title">
+            <div id="profileusername"></div>
+            <!-- <h1><span> KINGSLEY YAMOAH - </span> GraphQL 🔍 </h1> -->
+        </div>
+
+        <div class="profile-total-xp">
+            <span class="profileTotalXpLabel">Total XP:</span>
+            <span class="profileTotalXpOutput"></span>
+        </div>
+
+        <div id="header">
+            <!--      PROFILE INFORMATION      -->
+            <div id="profile" class="user-info">
+                <h2>Profile Information</h2>
+            </div>
+        </div>
+
+        <!--      FINISHED PROJECTS      -->
+        <div id="completed-projects" class="user-info">
+            <h3>Finished Projects</h3>
+        </div>
+        <div>
+            <h5 class="profileTotalXp">
+            </h5>
+        </div>
+
+        <!--      PIE CHART      -->
+        <div id="projects-by-xp"></div>
+        <div id="xp" class="user-info">
+        </div>
+
+        <!--      LINE CHART      -->
+        <div id="graphs" class="user-info">
+            <figure>
+                <h3>ProgressXP 2021 - 2023</h3>
+                <div class="line-chart-container">
+                    <svg id="lineChart" viewBox="-60 -40 550 450">
+                        <polyline fill="none" stroke="#0077c0" stroke-width="2" points="" />
+                        <g id="circle"></g>
+                    </svg>
+                </div>
+            </figure>
+        </div>
+        <script type="module" src="/app.js"></script>
+</body>
+
+</html>
