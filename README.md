@@ -32,3 +32,5 @@ Projects PASS and FAIL ratio
 Piscine (JS/Go) stats
 PASS and FAIL ratio
 Attempts for each exercise
+
+Hosted On Netlify: https://main--kingsleysgraphql.netlify.app/
